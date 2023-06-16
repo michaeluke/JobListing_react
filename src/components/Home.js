@@ -18,6 +18,7 @@ export default function Home() {
     }
   };
 
+  
   const handleRemoveSkill = (skill) => {
     debugger
     setSelectedSkills(selectedSkills.filter((selectedSkill) => selectedSkill !== skill));
@@ -38,7 +39,7 @@ export default function Home() {
         <div className="row">
           <div className="col-12">
             
-              {/* <ul id="filter-tags-list"></ul> */}
+          
               <FilterTags selectedSkills={selectedSkills} clearTags={clearTags} handleRemoveSkill={handleRemoveSkill} />
              
           

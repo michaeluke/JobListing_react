@@ -12,11 +12,6 @@ const FilterTags = ({ selectedSkills, clearTags , handleRemoveSkill}) => {
           <li className='tag-filter'  key={index}> <p> {skill}   </p> <span className='close-span'  onClick={() => handleRemoveSkill(skill)}><FontAwesomeIcon icon={faSquareXmark} /></span></li>
         ))}
 
-{/*        {skills.map((skill, index) => (
-          <li onClick={() => handleSkillSelect(skill)} key={index}>{skill}</li>
-        ))}
-          <li className='tag-filter' >   {selectedSkills.map((skill, index) => (<p key={index}> {skill}   </p>    ))} <span className='close-span'><FontAwesomeIcon icon={faSquareXmark} /></span></li>
-     */}
 
       </ul>
       <p className="clear-tags" id="js-clear-tags" onClick={clearTags}>
@@ -24,7 +19,6 @@ const FilterTags = ({ selectedSkills, clearTags , handleRemoveSkill}) => {
       </p>
       </div>
 
-// addFlag && tagsAdded.append("<li class='tag-filter'><p>"+tag+"</p><span class='close-span'><i class='fas fa-times'></i></span></li>");
 );
 }; 
 
