@@ -203,8 +203,6 @@ main {
   margin-left: 20px;
   border-bottom: 1px solid #58a9a7;
   cursor: pointer;
-
-  
 }
 
 @media (max-width: 969px) {
@@ -242,4 +240,4 @@ main {
     padding: 5px 5px;
     background-color: white;
   }
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=style.css.map */
