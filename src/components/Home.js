@@ -9,7 +9,7 @@ export default function Home() {
    
   const handleSkillSelect = (skill) => {
 
-    //if skill has been already selected and user presses on it again it's removed from the filtered skills.
+    //if user clicks on an already selected skill. it'll be removed from the filtered skills
     if (selectedSkills.includes(skill)) {
       setSelectedSkills(selectedSkills.filter((selectedSkill) => selectedSkill !== skill));
     } else {
